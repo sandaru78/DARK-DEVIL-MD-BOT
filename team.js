@@ -3586,7 +3586,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/prabhasha2006/Red-Dragon\n Dont Forget To Give Star\n\nYouTube : ${btnurl}\nDont Forget To Watch Tutorial`)
+                reply(`GitHub : https://github.com/prabhasha2006/Red-Dragon\n Dont Forget To Give Star\n\nGITHUB : ${btnurl}\nDont Forget To Follow Me`)
             }
             break
 
