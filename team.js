@@ -3582,7 +3582,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                RedDragonMdNx.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/CwffZ61/20220605-104552.jpg' }, caption: `*Hi, ${m.pushName}*\nI am ☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\nCreated By: *Malindu Nimsara*\nඅනේ නිකන් පලයන් ඩෝ යන්න බොරුවට එනව ඩොනේට් කරන්න😂💔\n` }, { quoted: m })
+                RedDragonMdNx.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/7zP068j/DEVIL-PHISH.jpg' }, caption: `*Hi, ${m.pushName}*\nI am ☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\nCreated By: *Malindu Nimsara*\nඅනේ නිකන් පලයන් ඩෝ යන්න බොරුවට එනව ඩොනේට් කරන්න😂💔\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -3598,7 +3598,7 @@ case 'allmenu': case 'menuall': {
                 let buttons = [
                     {buttonId: `${prefix}owner`, buttonText: {displayText: '❮❮😎Owner👤❯❯'}, type: 1}]
                 let buttonMessage = {
-                    image: { url: 'https://i.ibb.co/7zP068j/DEVIL-PHISH.jpg'},
+                    image: { url: 'https://gifyu.com/image/SHXLz'},
                 caption: `🙂-☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\nHello, ${pushname}\n\n┏━❯ *${botname}* ❮━😎\n┃
 ┃╔══☯︎❯ MAIN ❮💞👇
 ┃║
