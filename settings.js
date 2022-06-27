@@ -43,7 +43,7 @@ global.sp = '⭔' //A Charactor In Menu!
 
 
 global.ig = 'https://github.com/malindunimsara' //Github Account!
-global.footer = 'POWERD BY DARK-DEVIL' // DO NOT CHANGE!
+global.footer = '©_Kumuthu' // DO NOT CHANGE!
 
 global.mess = { // Error Mesages
     success: 'Done ✅',
