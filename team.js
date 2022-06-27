@@ -3913,12 +3913,12 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}shio (indo)
 ┃║
 ┃╚═══════✍︎☬
-┗━❯ *Created By ${ownername}*  ━😎`,
+┗━❯ *Created By ${ownername}*`,
                 footer: RedDragonMdNx.user.name,
                 buttons,
                 headerType: 4
                 }
-                RedDragonMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
+                RedDragonMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })\n\n*ᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ*`,
             }
             break
 
