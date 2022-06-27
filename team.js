@@ -3254,7 +3254,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'info': case 'about':{
-                reply(`🤭🌹Hi,\nI am ☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\nCreated by: Malindu Nimsara\n\nRed Dragon Team ==(•)==`)
+                reply(`🤭🌹Hi,\nI am ☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\nCreated by: Malindu Nimsara\n\nᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ`)
             }
             break
         //chat bot\\
@@ -3598,7 +3598,7 @@ case 'allmenu': case 'menuall': {
                 let buttons = [
                     {buttonId: `${prefix}owner`, buttonText: {displayText: '❮❮😎Owner👤❯❯'}, type: 1}]
                 let buttonMessage = {
-                    image: { url: 'https://i.ibb.co/7zP068j/DEVIL-PHISH.jpg'},
+                    image: { url: 'https://i.ibb.co/PN8NLfT/darkdevil.jpg'},
                 caption: `🙂-☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\nHello, ${pushname}\n\n┏━❯ *${botname}* ❮━😎\n┃
 ┃╔══☯︎❯ MAIN ❮💞👇
 ┃║
