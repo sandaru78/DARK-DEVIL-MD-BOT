@@ -3598,7 +3598,7 @@ case 'allmenu': case 'menuall': {
                 let buttons = [
                     {buttonId: `${prefix}owner`, buttonText: {displayText: '❮❮😎Owner👤❯❯'}, type: 1}]
                 let buttonMessage = {
-                    image: { url: 'https://gifyu.com/image/SHXLz'},
+                    gif: { url: 'https://gifyu.com/image/SHXLz'},
                 caption: `🙂-☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\nHello, ${pushname}\n\n┏━❯ *${botname}* ❮━😎\n┃
 ┃╔══☯︎❯ MAIN ❮💞👇
 ┃║
