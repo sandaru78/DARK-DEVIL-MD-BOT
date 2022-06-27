@@ -3918,7 +3918,7 @@ case 'allmenu': case 'menuall': {
                 buttons,
                 headerType: 4
                 }
-                RedDragonMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })\n\n*ᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ*`,
+                RedDragonMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
 
