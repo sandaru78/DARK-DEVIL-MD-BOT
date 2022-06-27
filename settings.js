@@ -21,14 +21,14 @@ global.APIKeys = {
 //customize settings\\
 
 global.alivemsg = `➳ᴹᴿ᭄ᴰᴬᴿᴷ ᴰᴱᵛᴵᴸ❦🇱🇰
-My Creator is ✔Maͥliͣnͫdu Nimsara❦🇱🇰` //Costomize Alive Message (type your message in `` )
+My Creator is 𝑴𝒂𝒍𝒊𝒏𝒅𝒖 𝑵𝒊𝒎𝒔𝒂𝒓𝒂` //Costomize Alive Message (type your message in `` )
 
 global.owner = ['+94762817504'] //Owner number in aive msg
 global.premium = ['+94762817504'] //Owner Number info
 global.ownernomer = '+94762817504' //Owner Number <<<
 
 global.ownername = '✔Maͥliͣnͫdu Nimsara❦🇱🇰' //Owner Name
-global.botname = '❦𝐃𝐄𝐕𝐈𝐋☬𝐁𝐎𝐓' //Bot Name
+global.botname = '👹𝐃𝐄𝐕𝐈𝐋☬𝐁𝐎𝐓👺' //Bot Name
 
 global.button = '🖥️GITHUB〽️' //Costomize A Button Name In Alive Message
 global.btnurl = 'https://github.com/malindunimsara' //Change Your Button's URL
@@ -37,7 +37,7 @@ global.region = 'srilanka' //Country Region
 
 global.packname = '👹𝗗𝗘𝗩𝗜𝗟 𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦࿐' //Bot Pacage Name
 global.author = '✔Maͥliͣnͫdu Nimsara❦🇱🇰' //Author Name
-global.prefa = ['','!','.','😂','','🎊'] //Command Prefix eg:(.alive ,alive 😂alive)
+global.prefa = ['','❗','.','😂','👹','🎊'] //Command Prefix eg:(.alive ,alive 😂alive)
 global.sessionName = 'session' //Session Name!
 global.sp = '⭔' //A Charactor In Menu!
 
