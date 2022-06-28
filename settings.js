@@ -27,8 +27,8 @@ global.owner = ['+94762817504'] //Owner number in aive msg
 global.premium = ['+94762817504'] //Owner Number info
 global.ownernomer = '+94762817504' //Owner Number <<<
 
-global.ownername = '✔Maͥliͣnͫdu Nimsara❦🇱🇰' //Owner Name
-global.botname = '👹𝐃𝐄𝐕𝐈𝐋☬𝐁𝐎𝐓👺' //Bot Name
+global.ownername = 'Maͥliͣnͫdu Nimsara❦🇱🇰' //Owner Name
+global.botname = '𝙳𝙰𝚁𝙺⚓𝙳𝙴𝚅𝙸𝙻-𝙱𝙾𝚃✨' //Bot Name
 
 global.button = '🖥️GITHUB〽️' //Costomize A Button Name In Alive Message
 global.btnurl = 'https://github.com/malindunimsara' //Change Your Button's URL
@@ -36,14 +36,14 @@ global.btnurl = 'https://github.com/malindunimsara' //Change Your Button's URL
 global.region = 'srilanka' //Country Region
 
 global.packname = '👹𝗗𝗘𝗩𝗜𝗟 𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦࿐' //Bot Pacage Name
-global.author = '✔Maͥliͣnͫdu Nimsara❦🇱🇰' //Author Name
+global.author = 'Maͥliͣnͫdu Nimsara❦🇱🇰' //Author Name
 global.prefa = ['','❗','.','😂','👹','🎊'] //Command Prefix eg:(.alive ,alive 😂alive)
 global.sessionName = 'session' //Session Name!
 global.sp = '⭔' //A Charactor In Menu!
 
 
 global.ig = 'https://github.com/malindunimsara' //Github Account!
-global.footer = 'ᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ ' // DO NOT CHANGE!
+global.footer = 'DEVIL BOT © PRIVET EDITION' // DO NOT CHANGE!
 
 global.mess = { // Error Mesages
     success: 'Done ✅',
@@ -53,7 +53,7 @@ global.mess = { // Error Mesages
     group: 'Feature Used Only For Groups!',
     private: 'This Features Only For Private Chat!',
     bot: 'This Feature Is Only For Bot😝',
-    wait: '👉👈Please Wait...',
+    wait: 'ටිකක් ඉන්න👉👈...',
     error: 'Error!!! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
