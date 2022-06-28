@@ -43,7 +43,7 @@ global.sp = '⭔' //A Charactor In Menu!
 
 
 global.ig = 'https://github.com/malindunimsara' //Github Account!
-global.footer = 'DEVIL BOT © PRIVET EDITION' // DO NOT CHANGE!
+global.footer = 'ᴅᴇᴠɪʟ-ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ' // DO NOT CHANGE!
 
 global.mess = { // Error Mesages
     success: 'Done ✅',
