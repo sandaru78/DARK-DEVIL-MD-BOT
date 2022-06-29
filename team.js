@@ -3619,22 +3619,22 @@ case 'allmenu': case 'menuall': {
 ┃║
 ┃╠♞👺 ${prefix}Hi
 ┃╠♞👺 ${prefix}Gn
-┃╠♞👺 ${prefix}i love you
-┃╠♞👺 ${prefix}love
-┃╠♞👺 ${prefix}Gn
+┃╠♞👺 ${prefix}akke
+┃╠♞👺 ${prefix}adarei
+┃╠♞👺 ${prefix}baba eka
 ┃╠♞👺 ${prefix}Good Night
 ┃╠♞👺 ${prefix}Good Morning
 ┃╠♞👺 ${prefix}fuck you
-┃╠♞👺 ${prefix}info
-┃╠♞👺 ${prefix}අනේ පලයන් බන් යන්න
-┃╠♞👺 ${prefix}ආව් ආව්
-┃╠♞👺 ${prefix}ඉම්හි ඉම්හි
-┃╠♞👺 ${prefix}හායි
-┃╠♞👺 ${prefix}හු#%
-┃╠♞👺 ${prefix}❤️
-┃╠♞👺 ${prefix}😂
-┃╠♞👺 ${prefix}😎
-┃╠♞👺 ${prefix}🥲
+┃╠♞👺 ${prefix}balli
+┃╠♞👺 ${prefix}baduwa
+┃╠♞👺 ${prefix}bitch
+┃╠♞👺 ${prefix}balaganin
+┃╠♞👺 ${prefix}bb ek
+┃╠♞👺 ${prefix}na na
+┃╠♞👺 ${prefix}namgi
+┃╠♞👺 ${prefix}pala
+┃╠♞👺 ${prefix}mk
+┃╠♞👺 ${prefix}marilada
 ┃║
 ┃╠♞👺══☬❯ OWNER ❮💞👇
 ┃║
@@ -4260,22 +4260,22 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃║
 ┃╠♞👺 ${prefix}Hi
 ┃╠♞👺 ${prefix}Gn
-┃╠♞👺 ${prefix}I love you
-┃╠♞👺 ${prefix}love
-┃╠♞👺 ${prefix}Gn
+┃╠♞👺 ${prefix}akke
+┃╠♞👺 ${prefix}adarei
+┃╠♞👺 ${prefix}baba eka
 ┃╠♞👺 ${prefix}Good Night
 ┃╠♞👺 ${prefix}Good Morning
 ┃╠♞👺 ${prefix}fuck you
-┃╠♞👺 ${prefix}info
-┃╠♞👺 ${prefix}අනේ පලයන් බන් යන්න
-┃╠♞👺 ${prefix}ආව් ආව්
-┃╠♞👺 ${prefix}ඉම්හි ඉම්හි
-┃╠♞👺 ${prefix}හායි
-┃╠♞👺 ${prefix}හු#%
-┃╠♞👺 ${prefix}❤️
-┃╠♞👺 ${prefix}😂
-┃╠♞👺 ${prefix}😎
-┃╠♞👺 ${prefix}🥲
+┃╠♞👺 ${prefix}balli
+┃╠♞👺 ${prefix}baduwa
+┃╠♞👺 ${prefix}bitch
+┃╠♞👺 ${prefix}balaganin
+┃╠♞👺 ${prefix}bb ek
+┃╠♞👺 ${prefix}na na
+┃╠♞👺 ${prefix}namgi
+┃╠♞👺 ${prefix}pala
+┃╠♞👺 ${prefix}mk
+┃╠♞👺 ${prefix}marilada
 ┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
 break
 case 'voicechangermenu':
