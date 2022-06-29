@@ -1,0 +1,3 @@
+# Do Not Use This Voice CLIP
+# all credits @ravindumanoj
+# sorry im using privet bot because mmm...
