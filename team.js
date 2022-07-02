@@ -2089,7 +2089,7 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `                    
-══════👹☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰══════╗\n
+═════👹☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰══════╗\n
 🎸📸 Title : ${anu.title}
 🎸📸 Channel : ${anu.author.url}
 🎸📸 Author : ${anu.author.name}
@@ -2099,7 +2099,7 @@ break
 🎸📸 Viewes : ${anu.views}
 🎸📸 Uploaded On : ${anu.ago}
 🎸📸 Description : ${anu.description}
-🎸📸 Url : ${anu.url}\n
+🎸📸 Url : ${anu.url}
 ═════════════════════════════╝`,
                     footer: RedDragonMdNx.user.name,
                     buttons: buttons,
