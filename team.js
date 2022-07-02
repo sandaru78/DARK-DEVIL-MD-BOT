@@ -252,7 +252,7 @@ const reply = (teks) => {
         let isgclink = isLinkThisGc.test(m.text)
         if (isgclink) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Sent This Group Link❤️`)
         if (isAdmins) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are An Admin Of The Group❤️`)
-        if (isCreator) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are My Owner Hahahahah🤣😘, You Think I Will Betray You Huh🎸📸`)
+        if (isCreator) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are My Owner Hahahahah🤣😘, කමක් නෑනෙ`)
         RedDragonMdNx.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
         }
@@ -1308,7 +1308,7 @@ case 'awesomecheck':
             let jawab = `The Most *${command}* Is @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '👀', buttonText: { displayText: '😂💔' }, type: 1 }
+                        { buttonId: '👀', buttonText: { displayText: '😂' }, type: 1 }
                     ]
                     await RedDragonMdNx.sendButtonText(m.chat, buttons, jawab, RedDragonMdNx.user.name, m, {mentions: ments})
             }
@@ -1774,7 +1774,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎸📸Owner👤',
+                                    displayText: '🎸📸Owner👨‍💼',
                                     id: 'owner'
                                 }
                             }]
@@ -1808,7 +1808,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎸📸Owner👤',
+                                    displayText: '🎸📸Owner👨‍💼',
                                     id: 'owner'
                                 }
                             }]
@@ -2089,7 +2089,7 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `                    
-👹☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n
+    👹☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n
 🎸📸 Title : ${anu.title}
 🎸📸 Channel : ${anu.author.url}
 🎸📸 Author : ${anu.author.name}
@@ -2146,7 +2146,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(urls[text - 1], quality)
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                RedDragonMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `👺☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${urls[text - 1]}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '360p'}\n\nPOWERD BY:  ${botname}` }, { quoted: m })
+                RedDragonMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `    👺☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${urls[text - 1]}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '360p'}\n\nPOWERD BY:  ${botname}` }, { quoted: m })
             }
             break
             case 'pinterest': {
@@ -2702,7 +2702,7 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '❮❮🥬No Watermark🥬❯❯'}, type: 1},
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '❮❮🎈Without Watermark🎈❯❯'}, type: 1},
                     {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '❮❮🎶Audio🎶❯❯'}, type: 1}
                 ]
                 let buttonMessage = {
@@ -2720,7 +2720,7 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '❮❮🥬No Watermark🥬❯❯'}, type: 1},
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '❮❮🎈Without Watermark🎈❯❯'}, type: 1},
                     {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '❮❮🥬With Watermark🥬❯❯'}, type: 1}
                 ]
                 let buttonMessage = {
@@ -3216,7 +3216,7 @@ View List Of Messages With ${prefix}listmsg`)
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-💻 Info Server
+💻*SERVER INFO*🖥️
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
@@ -3267,35 +3267,35 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'ado': case 'අඩෝ':{
-                RedDragonMdNx.sendMessage(from, { text: `*මොකෝ ඩෝ🌚*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*මොකෝ ඩෝ😏*` }, { quoted: m })
             }
             break
             case 'moko': case 'මොකෝ':{
-                RedDragonMdNx.sendMessage(from, { text: `*ඇයි ඇයි මොකෝ😎*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*ඇයි ඇයි මොකෝ😤*` }, { quoted: m })
             }
             break
             case 'bllo': case 'bamla': case 'බල්ලො': case 'බල්ලා': case 'බම්ලො': case 'බම්ලා': {
-                RedDragonMdNx.sendMessage(from, { text: `*එන්නෙපා බල්ල ගාගෙන😒💔💔*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*එන්නෙපා බල්ල ගාගෙන, බල්ල😒💔💔*` }, { quoted: m })
             }
             break
             case 'හායි': case 'hi':{
-                RedDragonMdNx.sendMessage(from, { text: `*🥴හූයි😁*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*☺️හායි ඉතින් කොහොමද☺️*` }, { quoted: m })
             }
             break
             case 'kolukaraya': case 'කොලුකාරයා':{
-                RedDragonMdNx.sendMessage(from, { text: `*ඇයි මේ අපහාස😒*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*ආස නෑ මහත්තයො😒*` }, { quoted: m })
             }
             break
             case 'haminenawane': case 'හැමිනෙනවනෙ':{
-                RedDragonMdNx.sendMessage(from, { text: `*අනේ පලහ්😂*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*අනේ පල😂*` }, { quoted: m })
             }
             break
             case 'e': case 'ee': case 'ඒ':{
-                RedDragonMdNx.sendMessage(from, { text: `*මොකෝ🌚*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*මොකෝ😏*` }, { quoted: m })
             }
             break
             case 'ane': case 'අනෙ': case 'අනේ':{
-                RedDragonMdNx.sendMessage(from, { text: `*මොකෝ අනේ🤭🤭*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*මොකෝ අනේ☺️☺️*` }, { quoted: m })
             }
             break
             case 'ow': case 'ඔව්': case 'ඕ': case 'oo':{
@@ -3315,7 +3315,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'kamak': case 'kamanna': case 'කමක්': case 'කමන්නෑ':{
-                RedDragonMdNx.sendMessage(from, { text: `*ආ කමක් නෑ...😂👍*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*එහෙනම් එච්චරයි...😂👍*` }, { quoted: m })
             }
             break
             case 'balamu': case 'balanna': case 'බලමු': case 'බලන්න':{
@@ -3323,15 +3323,15 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'pala': case 'palayan': case 'පල': case 'පලහ්': case 'පලයන්': case 'පලකො':{
-                RedDragonMdNx.sendMessage(from, { text: `*හා උබ කියනකන් හිටියෙ😒💔*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*උබ පලයන්😒💔*` }, { quoted: m })
             }
             break
             case 'aththada': case 'ඇත්තද': case 'සිරාද': case 'ඇත්තෙයි': case 'අම්මපා': case 'ඇත්ත':{
-                RedDragonMdNx.sendMessage(from, { text: `*මං දන්නෑ😒*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*සිරා බන්.😒*` }, { quoted: m })
             }
             break
             case 'gm': case 'goodmorning': case 'gummoninm': case 'ගුඩ්මෝනිං': case 'ගුම්මෝනිං': case 'ගුඩ්මෝනිං😌': case 'ගුම්මෝනිං❤️': case 'ගුඩ්මෝනිම්':{
-                RedDragonMdNx.sendMessage(from, { text: `*🎤දහසක් මල්🌸 විකසිත වන😊 මේ හිමිදිරි උදෑසනේ🌄 පතන්නම් ඔබ සැමට🙏 සුභම සුභ උදෑසනක් කියා...😃*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `*😍ගුඩ් මෝනින් මැණික😘*` }, { quoted: m })
             }
             break
             case 'gn': case 'goodnight': case 'gumnight': case 'ගුඩ්නයිට්': case 'ගුම්නයිත්': case 'ගුඩ්නයිට්😌': case 'ගුම්නයිට්❤️': case 'ගුඩ්නයිට්🌚❤️':{
@@ -3343,7 +3343,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'වැලක්':{
-                RedDragonMdNx.sendMessage(from, { text: `ම්ම්ම්...බලමු ලනාගෙ එකක් හොදද මෙන්න මේ වැල් රජාගෙන් ඉල්ල ගනින් ;- http://wa.me//+94713641083?text=_අඩෝ🙂_වැලක්_දීපම්කො😂\nhttps://www.pornhub.com/view_video.php?viewkey=ph61acfce1cf358\nhttps://www.pornhub.com/view_video.php?viewkey=ph61a3626db0be3\nhttps://www.pornhub.com/view_video.php?viewkey=ph61572e2818e7c\nhttps://www.pornhub.com/view_video.php?viewkey=ph615b0d4e909d1` }, { quoted: m })
+                RedDragonMdNx.sendMessage(from, { text: `ම්ම්ම්...බලමු ලනාගෙ එකක් හොදද මෙන්න මේ වැල් රජාගෙන් ඉල්ල ගනින් ;- http://wa.me//+94713641083?text=අඩෝ🙂_වැලක්_දීපම්කො😂_\n\nhttps://www.pornhub.com/view_video.php?viewkey=ph61acfce1cf358\nhttps://www.pornhub.com/view_video.php?viewkey=ph61a3626db0be3\nhttps://www.pornhub.com/view_video.php?viewkey=ph61572e2818e7c\nhttps://www.pornhub.com/view_video.php?viewkey=ph615b0d4e909d1` }, { quoted: m })
             }
             break
             case 'na': case 'naa': case 'නැ': case 'නෑ': case 'නෑනෙ': case 'nane': case 'naha': case 'නැතෝ':{
@@ -3432,7 +3432,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                                 }                            	
                                 }, {
                                 quickReplyButton: {
-                                displayText: '❮❮😎Owner👤❯❯',
+                                displayText: '❮❮😎Owner👨‍💻❯❯',
                                 id: `${prefix}owner`
                                 }
                                 },{
@@ -3596,7 +3596,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 case 'allmenu': case 'menuall': {
                
                 let buttons = [
-                    {buttonId: `${prefix}owner`, buttonText: {displayText: '❮❮😎Owner👤❯❯'}, type: 1}]
+                    {buttonId: `${prefix}owner`, buttonText: {displayText: '❮❮😎Owner👨‍💻❯❯'}, type: 1}]
                 let buttonMessage = {
                     image: { url: 'https://i.ibb.co/PN8NLfT/darkdevil.jpg'},
                 caption: `❤️‍🔥☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\nHello, ${pushname}\n\n┏━❯ *${botname}* ❮━❤️‍🔥\n┃
@@ -3615,7 +3615,7 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}donate
 ┃╠♞👺 ${prefix}report [bug]
 ┃║
-┃╠♞👺══☬❯ 𝗚𝗶𝗿𝗹 𝗩𝗼𝗶𝗰𝗲 𝗖𝗹𝗶𝗽𝘀 ❮💞👇
+┃╠🔥══☬❯ 𝗚𝗶𝗿𝗹 𝗩𝗼𝗶𝗰𝗲 𝗖𝗹𝗶𝗽𝘀 ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}Hi
 ┃╠♞👺 ${prefix}Gn
@@ -3636,7 +3636,7 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}mk
 ┃╠♞👺 ${prefix}marilada
 ┃║
-┃╠♞👺══☬❯ OWNER ❮💞👇
+┃╠🔥══☬❯ OWNER ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}chat [option]
 ┃╠♞👺 ${prefix}join [link]
@@ -3648,7 +3648,7 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}setppbot [image]
 ┃╠♞👺 ${prefix}setexif
 ┃║
-┃╠♞👺══☬❯ GROUP ❮💞👇   
+┃╠🔥══☬❯ GROUP ❮💞👇   
 ┃║   
 ┃╠♞👺 ${prefix}grouplink
 ┃╠♞👺 ${prefix}ephemeral [option]
@@ -3671,7 +3671,7 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}checkvote
 ┃╠♞👺 ${prefix}delvote
 ┃║
-┃╠♞👺══☬❯ TEXT PRO ❮💞👇
+┃╠🔥══☬❯ TEXT PRO ❮💞👇
 ┃║	        
 ┃╠♞👺 ${prefix}3dchristmas [txt]
 ┃╠♞👺 ${prefix}3ddeepsea [txt]
@@ -3705,7 +3705,7 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}blackpink [txt]
 ┃╠♞👺 ${prefix}gluetext [txt]
 ┃║
-┃╠♞👺══☯︎❯ RPG ❮💞👇
+┃╠🔥══☯︎❯ RPG ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}hunting
 ┃╠♞👺 ${prefix}mining
@@ -3717,7 +3717,8 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}buy [option]
 ┃╠♞👺 ${prefix}sell [option]
 ┃║
-┃╠♞👺═☬❯ DOWNLOADER ❮💞👇
+┃╠🔥═☬❯ DOWNLOADER ❮💞👇
+┃║
 ┃╠♞👺 ${prefix}.song [song name]
 ┃╠♞👺 ${prefix}.video [yt link]
 ┃╠♞👺 ${prefix}.fb [fb link]
@@ -3730,7 +3731,7 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}joox [query]
 ┃╠♞👺 ${prefix}soundcloud [url]
 ┃║
-┃╠♞👺══☬❯ SEARCHER ❮💞👇
+┃╠🔥══☬❯ SEARCHER ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}play [query]
 ┃╠♞👺 ${prefix}song [query]
@@ -3744,13 +3745,13 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}ringtone [query]
 ┃╠♞👺 ${prefix}webtoon [query]
 ┃║
-┃╠♞👺══☬❯ RANDOM ❮💞👇
+┃╠🔥══☬❯ RANDOM ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}coffee
 ┃╠♞👺 ${prefix}animequote (indo)
 ┃╠♞👺 ${prefix}couplepp
 ┃║
-┃╠♞👺═☬❯ RANDOM ANIME ❮💞👇
+┃╠🔥═☬❯ RANDOM ANIME ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}loli
 ┃╠♞👺 ${prefix}bully
@@ -3780,7 +3781,7 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}dance
 ┃╠♞👺 ${prefix}cringe
 ┃║
-┃╠♞👺══☬❯ FUN ❮💞👇
+┃╠🔥══☬❯ FUN ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}how [text]
 ┃╠♞👺 ${prefix}when [text]
@@ -3828,7 +3829,7 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}math [mode]
 ┃╠♞👺 ${prefix}suitpvp [tag]
 ┃║
-┃╠♞👺═══☬❯ CONVERTER ❮💞👇
+┃╠🔥═══☬❯ CONVERTER ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}toimage [reply stick]
 ┃╠♞👺 ${prefix}sticker [reply img|gif]
@@ -3843,7 +3844,7 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}dbinary [reply txt]
 ┃╠♞👺 ${prefix}styletext [text]
 ┃║
-┃╠♞👺══☬❯ DATABASE ❮💞👇
+┃╠🔥══☬❯ DATABASE ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}setcmd
 ┃╠♞👺 ${prefix}listcmd
@@ -3854,14 +3855,14 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}getmsg
 ┃╠♞👺 ${prefix}delmsg
 ┃║
-┃╠♞👺═☬❯ ANONYMOUS CHAT ❮💞👇
+┃╠🔥═☬❯ ANONYMOUS CHAT ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}anonymous
 ┃╠♞👺 ${prefix}start
 ┃╠♞👺 ${prefix}next
 ┃╠♞👺 ${prefix}leave
 ┃║
-┃╠♞👺═☬❯ VOICE CHANGER ❮💞👇
+┃╠🔥═☬❯ VOICE CHANGER ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}bass [reply aud]
 ┃╠♞👺 ${prefix}blown [reply aud]
@@ -3875,11 +3876,11 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 ${prefix}slow [reply aud]
 ┃╠♞👺 ${prefix}squirrel [reply aud]
 ┃║
-┃╠♞👺══☬❯ ISLAMIC ❮💞👇
+┃╠🔥══☬❯ ISLAMIC ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}juzamma
 ┃║
-┃╠♞👺══☬❯ HOROSCOPE ❮💞👇
+┃╠🔥══☬❯ HOROSCOPE ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}nomorhoki (indo)
 ┃╠♞👺 ${prefix}artimimpi (indo)
@@ -3942,7 +3943,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}donate
 ┃╠♞👺 ${prefix}report [bug]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 
 case 'grupmenu': case 'groupmenu':
@@ -3972,7 +3973,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}checkvote
 ┃╠♞👺 ${prefix}delvote
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'rpgmenu':
 var unicorn = await getBuffer(picak+'Rpg Menu')
@@ -3990,7 +3991,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}buy [option]
 ┃╠♞👺 ${prefix}sell [option]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 
 case 'funmenu':
@@ -4044,7 +4045,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}math [mode]
 ┃╠♞👺 ${prefix}suitpvp [tag]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'ownermenu':
 var unicorn = await getBuffer(picak+'Owner Menu')
@@ -4073,7 +4074,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}checkvote
 ┃╠♞👺 ${prefix}delvote
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
@@ -4092,7 +4093,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}joox [query]
 ┃╠♞👺 ${prefix}soundcloud [url]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
@@ -4112,7 +4113,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}ringtone [query]
 ┃╠♞👺 ${prefix}webtoon [query]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
@@ -4124,7 +4125,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}animequote (indo)
 ┃╠♞👺 ${prefix}couplepp
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
@@ -4160,7 +4161,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}dance
 ┃╠♞👺 ${prefix}cringe
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'textpromenu':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
@@ -4200,7 +4201,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}blackpink [txt]
 ┃╠♞👺 ${prefix}gluetext [txt]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
@@ -4220,7 +4221,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}ebinary [reply txt]
 ┃╠♞👺 ${prefix}dbinary [reply txt]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4237,7 +4238,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}getmsg
 ┃╠♞👺 ${prefix}delmsg
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4250,13 +4251,13 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}next
 ┃╠♞👺 ${prefix}leave
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'girlvoicemenu':
 var unicorn = await getBuffer(picak+'Girl Voice Clips')
 await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━❤️‍🔥 
-┃╔♞👺══☬❯ 𝗚𝗶𝗿𝗹 𝗩𝗼𝗶𝗰𝗲 𝗖𝗹𝗶𝗽𝘀 ❮💞👇
+┃╔══☬❯ 𝗚𝗶𝗿𝗹 𝗩𝗼𝗶𝗰𝗲 𝗖𝗹𝗶𝗽𝘀 ❮💞👇
 ┃║
 ┃╠♞👺 ${prefix}Hi
 ┃╠♞👺 ${prefix}Gn
@@ -4276,7 +4277,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}pala
 ┃╠♞👺 ${prefix}mk
 ┃╠♞👺 ${prefix}marilada
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
@@ -4296,7 +4297,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}slow [reply aud]
 ┃╠♞👺 ${prefix}squirrel [reply aud]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
@@ -4335,12 +4336,12 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ${prefix}zodiak (indo)
 ┃╠♞👺 ${prefix}shio (indo)
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "�Owner👤","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
-Thanks To Me Later😂😂😂 !!!`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
+Thanks To Me Later😂😂😂 !!!`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👨‍💻Owner:","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
