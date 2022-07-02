@@ -2083,13 +2083,13 @@ break
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '❮❮🎶AUDIO🎶❯❯'}, type: 1},
-                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '❮❮📽️VIDEO📽️❯❯'}, type: 1}
+                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '❮❮🎶Audio🎶❯❯'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '❮❮📽️Video📽️❯❯'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `                    
-═════👹☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰═════╗\n
+       👹☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n
 🎸📸 Title : ${anu.title}
 🎸📸 Channel : ${anu.author.url}
 🎸📸 Author : ${anu.author.name}
@@ -2100,7 +2100,6 @@ break
 🎸📸 Uploaded On : ${anu.ago}
 🎸📸 Description : ${anu.description}
 🎸📸 Url : ${anu.url}`,
-════════════════════════════╝
                     footer: RedDragonMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2114,7 +2113,7 @@ break
                 let quality = args[1] ? args[1] : '320kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                RedDragonMdNx.sendImage(m.chat, media.thumb, `┍──✨${botname}\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${isUrl(text)}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '320kbps'}\n────────────────────────┙@\n\n*ᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ*`, m)
+                RedDragonMdNx.sendImage(m.chat, media.thumb, `┍──✨${botname}\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${isUrl(text)}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '320kbps'}\n\n*ᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ*`, m)
                 RedDragonMdNx.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2124,7 +2123,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                RedDragonMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `┍──✨${botname}\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${isUrl(text)}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '360p'}\n────────────────────────┙\n\n*ᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ*` }, { quoted: m })
+                RedDragonMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `┍──✨${botname}\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${isUrl(text)}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '360p'}\n\n*ᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ*` }, { quoted: m })
             }
             break
 	    case 'getmusicxxx': {
@@ -2133,7 +2132,7 @@ break
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(urls[text - 1], quality)
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                RedDragonMdNx.sendImage(m.chat, media.thumb, `┍──✨${botname}\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${urls[text - 1]}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '128kbps'}\n────────────────────────┙\n\n*ᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ*`, m)
+                RedDragonMdNx.sendImage(m.chat, media.thumb, `┍──✨${botname}\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${urls[text - 1]}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '128kbps'}\n\n*ᴅᴇᴠɪʟ ʙᴏᴛ © ᴘʀɪᴠᴇᴛ ᴇᴅɪᴛɪᴏɴ*`, m)
                 RedDragonMdNx.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2147,7 +2146,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(urls[text - 1], quality)
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                RedDragonMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `👺☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${urls[text - 1]}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '360p'}\n\nPOWERD BY:  ${botname}` }, { quoted: m })
+                RedDragonMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `    👺☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\n🎸📸 Title : ${media.title}\n🎸📸 File Size : ${media.filesizeF}\n🎸📸 Url : ${urls[text - 1]}\n🎸📸 Ext : MP3\n🎸📸 Resolution : ${args[1] || '360p'}\n\nPOWERD BY:  ${botname}` }, { quoted: m })
             }
             break
             case 'pinterest': {
@@ -2704,7 +2703,7 @@ case 'webtonsearch': case 'webtoon':
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
                     {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '❮❮🎈Without Watermark🎈❯❯'}, type: 1},
-                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '❮❮🎶AUDIO🎶❯❯'}, type: 1}
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '❮❮🎶Audio🎶❯❯'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.watermark },
@@ -2776,7 +2775,7 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `twittermp3 ${text}`, buttonText: {displayText: '❮❮🎶AUDIO🎶❯❯'}, type: 1}
+                    {buttonId: `twittermp3 ${text}`, buttonText: {displayText: '❮❮🎶Audio🎶❯❯'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.HD || anu.result.SD },
@@ -2793,7 +2792,7 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `twitter ${text}`, buttonText: {displayText: '❮❮📽️VIDEO📽️❯❯'}, type: 1}
+                    {buttonId: `twitter ${text}`, buttonText: {displayText: '❮❮📽️Video📽️❯❯'}, type: 1}
                 ]
                 let buttonMessage = {
 		    image: { url: anu.result.thumb },
@@ -2826,8 +2825,8 @@ case 'webtonsearch': case 'webtoon':
 		let anu = await umma(isUrl(text)[0])
 		if (anu.type == 'video') {
 		    let buttons = [
-                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '❮❮🎶AUDIO🎶❯❯'}, type: 1},
-                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '❮❮📽️VIDEO📽️❯❯'}, type: 1}
+                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '❮❮🎶Audio🎶❯❯'}, type: 1},
+                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '❮❮📽️Video📽️❯❯'}, type: 1}
                     ]
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
@@ -3402,7 +3401,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                             }                            	
                             }, {
                             quickReplyButton: {
-                            displayText: '❮❮👨‍💻OWNER👨‍💻❯❯',
+                            displayText: '❮❮😎Owner🤭❯❯',
                             id: `${prefix}owner`
                             }
                             },{
@@ -3433,7 +3432,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                                 }                            	
                                 }, {
                                 quickReplyButton: {
-                                displayText: '❮❮👨‍💻OWNER👨‍💻❯❯',
+                                displayText: '❮❮😎Owner👨‍💻❯❯',
                                 id: `${prefix}owner`
                                 }
                                 },{
@@ -3597,7 +3596,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 case 'allmenu': case 'menuall': {
                
                 let buttons = [
-                    {buttonId: `${prefix}owner`, buttonText: {displayText: '❮❮👨‍💻OWNER👨‍💻❯❯'}, type: 1}]
+                    {buttonId: `${prefix}owner`, buttonText: {displayText: '❮❮😎Owner👨‍💻❯❯'}, type: 1}]
                 let buttonMessage = {
                     image: { url: 'https://i.ibb.co/PN8NLfT/darkdevil.jpg'},
                 caption: `❤️‍🔥☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\nHello, ${pushname}\n\n┏━❯ *${botname}* ❮━❤️‍🔥\n┃
