@@ -1,0 +1,24 @@
+{
+  "name": "DARK-DEVIL-BOT",
+  "description": "👹DARK-DEVIL-BOT👺 | By: DARK-DEVIL | 👹☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰",
+  "repository": "https://github.com/malindunimsara/DARK-DEVIL-MD-BOT",
+  "logo": "https://i.ibb.co/7zP068j/DEVIL-PHISH.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
