@@ -3587,7 +3587,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/malindunimsara/Red-Dragon\n Dont Forget To Give Star\n\nGITHUB : ${btnurl}\nDont Forget To Follow Me`)
+                reply(`GitHub : https://github.com/malindunimsara/DARK-DEVIL-BOT\n Dont Forget To Give Star\n\nGITHUB : ${btnurl}\n Dont Forget To Follow Me`)
             }
             break
 
@@ -3603,18 +3603,18 @@ case 'allmenu': case 'menuall': {
                 caption: `❤️‍🔥☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰\n\nHello, ${pushname}\n\n┏━❯ *${botname}* ❮━❤️‍🔥\n┃
 ┃╔══☯︎❯ MAIN ❮💞👇
 ┃║
-┃╠♞👺 ${prefix}alive
-┃╠♞👺 ${prefix}info
-┃╠♞👺 ${prefix}script
-┃╠♞👺 ${prefix}speedtest
-┃╠♞👺 ${prefix}ping
-┃╠♞👺 ${prefix}owner
-┃╠♞👺 ${prefix}menu
-┃╠♞👺 ${prefix}delete
-┃╠♞👺 ${prefix}chatinfo
-┃╠♞👺 ${prefix}quoted
-┃╠♞👺 ${prefix}donate
-┃╠♞👺 ${prefix}report [bug]
+┃╠♞👺 alive
+┃╠♞👺 info
+┃╠♞👺 script
+┃╠♞👺 speedtest
+┃╠♞👺 ping
+┃╠♞👺 owner
+┃╠♞👺 menu
+┃╠♞👺 delete
+┃╠♞👺 chatinfo
+┃╠♞👺 quoted
+┃╠♞👺 donate
+┃╠♞👺 report [bug]
 ┃║
 ┃╠🔥══☬❯ 𝗚𝗶𝗿𝗹 𝗩𝗼𝗶𝗰𝗲 𝗖𝗹𝗶𝗽𝘀 ❮💞👇
 ┃║
