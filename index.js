@@ -154,7 +154,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
                 } else if (anu.action == 'remove') {
                     RedDragonMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
 
-⭐✑ I'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨` })
+⭐✑ එය සමුගැනීමේ චමත්කාරය දැයි මට විශ්වාස නැත,නමුත් එය පවතින අතරතුර එය විනෝදජනක විය😌✨` })
                 }
             }
         } catch (err) {
