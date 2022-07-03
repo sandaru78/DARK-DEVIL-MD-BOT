@@ -6,4 +6,4 @@
 
           𝐐𝐑 𝐂𝐎𝐃𝐄
 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@nexusNw/M-D-SCANNER-V2?v=1?outputonly=1&lite=1#index.js)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@MalinduNimsara1/DARK-DEVIL-MD-BOT-QR?v=1?outputonly=1&lite=1#index.js)
