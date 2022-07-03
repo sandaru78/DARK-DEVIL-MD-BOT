@@ -202,11 +202,11 @@ module.exports = RedDragonMdNx = async (RedDragonMdNx, m, chatUpdate, store) => 
 	
 	//group target \\
 const reply = (teks) => {
-            RedDragonMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` ☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DragonMedia/image/dragon.jpg`),"sourceUrl": "https://i.ibb.co/7zP068j/DEVIL-PHISH.jpg"}}}, { quoted: m})
+            RedDragonMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` ☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DevilMedia/image/dark-devil.jpg`),"sourceUrl": "https://i.ibb.co/7zP068j/DEVIL-PHISH.jpg"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            RedDragonMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` ☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DragonMedia/image/dragon.jpg`),"sourceUrl": "https://i.ibb.co/7zP068j/DEVIL-PHISH.jpg"}}}, { quoted: m})
+            RedDragonMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` ☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DevilMedia/image/dark-devil.jpg`),"sourceUrl": "https://i.ibb.co/7zP068j/DEVIL-PHISH.jpg"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -260,25 +260,25 @@ const reply = (teks) => {
         //auto reply 
         for (let anji of setik){
 				if (budy === anji){
-					result = fs.readFileSync(`./DragonMedia/sticker/${anji}.webp`)
+					result = fs.readFileSync(`./DevilMedia/sticker/${anji}.webp`)
 					RedDragonMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
 			}
 			for (let anju of vien){
 				if (budy === anju){
-					result = fs.readFileSync(`./DragonMedia/RedDragonVoice/${anju}.mp3`)
+					result = fs.readFileSync(`./DevilMedia/DarkDevilVoice/${anju}.mp3`)
 					RedDragonMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 			}
 			for (let anjh of imagi){
 				if (budy === anjh){
-					result = fs.readFileSync(`./DragonMedia/image/${anjh}.jpg`)
+					result = fs.readFileSync(`./DevilMedia/image/${anjh}.jpg`)
 					RedDragonMdNx.sendMessage(m.chat, { image: result }, { quoted: m })
 					}
 			}
 					for (let anjh of videox){
 				if (budy === anjh){
-					result = fs.readFileSync(`./DragonMedia/vid/${anjh}.mp4`)
+					result = fs.readFileSync(`./DevilMedia/vid/${anjh}.mp4`)
 					RedDragonMdNx.sendMessage(m.chat, { video: result }, { quoted: m })
 					}
 				  }
@@ -2872,13 +2872,13 @@ To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp
 		RedDragonMdNx.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pdf'}, mimetype: 'application/pdf', fileName: 'juz-amma-arab-latin-indonesia.pdf'}, {quoted:m})
 		} else if (args[0] === 'docx') {
 		reply(mess.wait)
-		RedDragonMdNx.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.docx'}, mimetype: 'application/RedDragonVoiced.openxmlformats-officedocument.wordprocessingml.document', fileName: 'juz-amma-arab-latin-indonesia.docx'}, {quoted:m})
+		RedDragonMdNx.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.docx'}, mimetype: 'application/DarkDevilVoiced.openxmlformats-officedocument.wordprocessingml.document', fileName: 'juz-amma-arab-latin-indonesia.docx'}, {quoted:m})
 		} else if (args[0] === 'pptx') {
 		reply(mess.wait)
-		RedDragonMdNx.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx'}, mimetype: 'application/RedDragonVoiced.openxmlformats-officedocument.presentationml.presentation', fileName: 'juz-amma-arab-latin-indonesia.pptx'}, {quoted:m})
+		RedDragonMdNx.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx'}, mimetype: 'application/DarkDevilVoiced.openxmlformats-officedocument.presentationml.presentation', fileName: 'juz-amma-arab-latin-indonesia.pptx'}, {quoted:m})
 		} else if (args[0] === 'xlsx') {
 		reply(mess.wait)
-		RedDragonMdNx.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.xlsx'}, mimetype: 'application/RedDragonVoiced.openxmlformats-officedocument.spreadsheetml.sheet', fileName: 'juz-amma-arab-latin-indonesia.xlsx'}, {quoted:m})
+		RedDragonMdNx.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.xlsx'}, mimetype: 'application/DarkDevilVoiced.openxmlformats-officedocument.spreadsheetml.sheet', fileName: 'juz-amma-arab-latin-indonesia.xlsx'}, {quoted:m})
 		} else {
 		reply(`What Format Do You Want? ? Example : ${prefix + command} pdf
 
@@ -3448,7 +3448,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                                 }
                                 }]
                             let buttonMessage = {
-                                image: fs.readFileSync('./DragonMedia/image/red-_-dragon-kumuthu.jpg'),
+                                image: fs.readFileSync('./DevilMedia/image/dark-devil-malindu.jpg'),
                                 caption: `╔●●🔥${botname}\n▌ ╠ Hi, ${pushname} ╣\n╚●●●❖╠ I Am Alive👋 ╣\n▌⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀:\n▌❮✮❯ 𝘽𝙤𝙩 𝙉𝙖𝙢𝙚 :${global.botname}\n▌❮✮❯ 𝙊𝙬𝙣𝙚𝙧 𝙉𝙖𝙢𝙚 :${global.ownername}\n▌❮✮❯ 𝙊𝙬𝙣𝙚𝙧 𝙉𝙪𝙢𝙗𝙚𝙧 :${global.owner}\n▌❮✮❯ 𝙎𝙥𝙚𝙚𝙙 : ${latensie.toFixed(4)} miliseconds\n▌❮✮❯ 𝙋𝙡𝙖𝙩𝙛𝙤𝙧𝙢 : ${os.platform()}\n▌⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀:\n${global.alivemsg}\n╗\n${global.namedd}\n❯❯●●●●●●●●●●     ●●●●●●●●●●❮❮`,
                                 footer: RedDragonMdNx.user.name,
                                 buttons: buttons,
@@ -3624,8 +3624,8 @@ case 'allmenu': case 'menuall': {
 ┃╠♞👺 akke
 ┃╠♞👺 adarei
 ┃╠♞👺 baba eka
-┃╠♞👺 Good Night
-┃╠♞👺 Good Morning
+┃╠♞👺 good night
+┃╠♞👺 good morning
 ┃╠♞👺 fuck you
 ┃╠♞👺 balli
 ┃╠♞👺 baduwa
@@ -4267,8 +4267,8 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 akke
 ┃╠♞👺 adarei
 ┃╠♞👺 baba eka
-┃╠♞👺 Good Night
-┃╠♞👺 Good Morning
+┃╠♞👺 good night
+┃╠♞👺 good morning
 ┃╠♞👺 fuck you
 ┃╠♞👺 balli
 ┃╠♞👺 baduwa
