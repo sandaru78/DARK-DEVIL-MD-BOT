@@ -87,7 +87,7 @@ async function startRedDragonMdNx() {
         if (!RedDragonMdNx.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         m = smsg(RedDragonMdNx, mek, store)
-        require("./Gojosensei")(RedDragonMdNx, m, chatUpdate, store)
+        require("./team")(RedDragonMdNx, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
@@ -145,18 +145,16 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                     RedDragonMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-Hi👋 @${num.split("@")[0]},
-Welcome To ${metadata.subject}
+⭐✑ Hi👋 @${num.split("@")[0]},
+⭐✑ Welcome To ${metadata.subject}
 
-Description: ${metadata.desc}
+⭐✑ Description: ${metadata.desc}
 
-Group Link: https://chat.whatsapp.com/HXVzUWVrbQ938Mn0R1BE7Q
-
-Welcome To Our Group!`} )
+⭐✑ Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
                 } else if (anu.action == 'remove') {
-                    RedDragonMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Left ${metadata.subject}
+                    RedDragonMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
 
-🧚Good Bye😌✨` })
+⭐✑ එය සමුගැනීමේ චමත්කාරය දැයි මට විශ්වාස නැත,නමුත් එය පවතින අතරතුර එය විනෝදජනක විය😌✨` })
                 }
             }
         } catch (err) {
