@@ -2077,29 +2077,30 @@ break
         })
         }
         break
-	    case 'play': case 'song': case 'ytplay': {
-                if (!text) return reply(`Example : ${prefix + command} Stay`)
+	     case 'yt': case 'song': case 'play': case 'video':{
+                if (!text) return reply(`Example : ${prefix + command} lelena`)
                 let yts = require("yt-search")
                 let search = await yts(text)
-                let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
+                let anu = search.videos[0]
                 let buttons = [
-                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '❮❮🎶AUDIO🎶❯❯'}, type: 1},
-                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '❮❮📽️VIDEO📽️❯❯'}, type: 1}
+                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🎶SONG🎶'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '📽VIDEO️📽️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `                    
+                    caption: `
 ═════👹☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰══════╗\n
-🎸📸 Title : ${anu.title}
-🎸📸 Channel : ${anu.author.url}
-🎸📸 Author : ${anu.author.name}
-🎸📸 Ext : Search
-🎸📸 ID : ${anu.videoId}
-🎸📸 Duration : ${anu.timestamp}
-🎸📸 Viewes : ${anu.views}
-🎸📸 Uploaded On : ${anu.ago}
-🎸📸 Description : ${anu.description}
-🎸📸 Url : ${anu.url}
+────🌈𝒀𝒐𝒖𝑻𝒖𝒃𝒆 𝑫𝒐𝒘𝒏𝒍𝒐𝒅𝒆𝒓⚡───\n
+⛄ *Title* : ${anu.title}
+📺 *Channel* : ${anu.author.url}
+✍️ *Author* : ${anu.author.name}
+🎶 *Ext* : Search
+🏷️ *ID* : ${anu.videoId}
+⌛ *Duration* : ${anu.timestamp}
+👀 *Viewes* : ${anu.views}
+📤 *Uploaded On* : ${anu.ago}
+📃 *Description* : ${anu.description}
+🖇️ *Url* : ${anu.url}
 ═════════════════════════════╝`,
                     footer: RedDragonMdNx.user.name,
                     buttons: buttons,
@@ -2107,7 +2108,8 @@ break
                 }
                 RedDragonMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
-            break
+         
+	        break
 	    case 'ytmp3': case 'getmusic': case 'ytaudio': {
                 let { yta } = require('./lib/y2mate')
                 if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`)
