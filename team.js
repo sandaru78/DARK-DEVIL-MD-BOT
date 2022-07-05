@@ -1760,7 +1760,7 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: '💌Code💌',
-                                    url: `https://github.com/malindunimsara?tab=repositories`
+                                    url: `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`
                                 }
                             }, {
                                 urlButton: {
@@ -1774,7 +1774,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👨‍💻OWNER👨‍💻‍💼',
+                                    displayText: '👨‍💻OWNER👨‍💻',
                                     id: 'owner'
                                 }
                             }]
@@ -1794,7 +1794,7 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: '💌Code💌',
-                                    url: `https://github.com/malindunimsara?tab=repositories`
+                                    url: `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`
                                 }
                             }, {
                                 urlButton: {
@@ -1808,7 +1808,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👨‍💻OWNER👨‍💻‍💼',
+                                    displayText: '👨‍💻OWNER👨‍💻',
                                     id: 'owner'
                                 }
                             }]
@@ -2090,7 +2090,7 @@ break
                     image: { url: anu.thumbnail },
                     caption: `
 ═════👹☬𝘿𝘼𝙍𝙆☳𝘿𝙀𝙑𝙄𝙇-𝐁𝐎𝐓🇱🇰══════╗\n
-──────💕𝒀𝒐𝒖𝑻𝒖𝒃𝒆 𝑫𝒐𝒘𝒏𝒍𝒐𝒅𝒆𝒓🌈───────\n
+──────💕𝒀𝒐𝒖𝑻𝒖𝒃𝒆 𝑫𝒐𝒘𝒏𝒍𝒐𝒅𝒆𝒓💕────────\n
 ⛄ *Title* : ${anu.title}
 📺 *Channel* : ${anu.author.url}
 ✍️ *Author* : ${anu.author.name}
@@ -3394,8 +3394,8 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                         var unicorn = await getBuffer('https://i.ibb.co/7zP068j/DEVIL-PHISH.jpg')
                         await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `╔●●🔥${botname}\n▌ ╠ Hi, ${pushname} ╣\n╚●●●❖╠👨‍💻_𝐈 𝐚𝐦 𝐀𝐥𝐢𝐯𝐞_👨‍💻╣\n▌⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀:\n▌❮✮❯ 𝘽𝙤𝙩 𝙉𝙖𝙢𝙚 :${global.botname}\n▌❮✮❯ 𝙊𝙬𝙣𝙚𝙧 𝙉𝙖𝙢𝙚 :${global.ownername}\n▌❮✮❯ 𝙊𝙬𝙣𝙚𝙧 𝙉𝙪𝙢𝙗𝙚𝙧 :${global.owner}\n▌❮✮❯ 𝙎𝙥𝙚𝙚𝙙 : ${latensie.toFixed(4)} miliseconds\n▌❮✮❯ 𝙋𝙡𝙖𝙩𝙛𝙤𝙧𝙢 : ${os.platform()}\n▌⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀⦀:\n${global.alivemsg}\n╗\n${global.namedd}\n❯❯●●●●●●●●●●     ●●●●●●●●●●❮❮`,unicorn, [{
                             urlButton: {
-                            displayText: 'My Github Repositories🔖',
-                            url: 'https://github.com/malindunimsara?tab=repositories'
+                            displayText: '🔖BOT SCRIPT🔖',
+                            url: 'https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT'
                             }
                             }, {
                             urlButton: {
@@ -3425,8 +3425,8 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                         latensie = speed() - timestampe
                             let buttons = [{
                                 urlButton: {
-                                displayText: 'My Github Repositories🔖',
-                                url: 'https://github.com/malindunimsara?tab=repositories'
+                                displayText: '🔖BOT SCRIPT🔖',
+                                url: 'https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT'
                                 }
                                 }, {
                                 urlButton: {
@@ -3947,7 +3947,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 donate
 ┃╠♞👺 report [bug]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 
 case 'grupmenu': case 'groupmenu':
@@ -3977,7 +3977,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 checkvote
 ┃╠♞👺 delvote
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'rpgmenu':
 var unicorn = await getBuffer(picak+'Rpg Menu')
@@ -3995,7 +3995,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 buy [option]
 ┃╠♞👺 sell [option]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 
 case 'funmenu':
@@ -4049,7 +4049,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 math [mode]
 ┃╠♞👺 suitpvp [tag]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'ownermenu':
 var unicorn = await getBuffer(picak+'Owner Menu')
@@ -4078,7 +4078,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 checkvote
 ┃╠♞👺 delvote
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
@@ -4097,7 +4097,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 joox [query]
 ┃╠♞👺 soundcloud [url]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
@@ -4117,7 +4117,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ringtone [query]
 ┃╠♞👺 webtoon [query]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
@@ -4129,7 +4129,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 animequote (indo)
 ┃╠♞👺 couplepp
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
@@ -4165,7 +4165,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 dance
 ┃╠♞👺 cringe
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'textpromenu':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
@@ -4205,7 +4205,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 blackpink [txt]
 ┃╠♞👺 gluetext [txt]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
@@ -4225,7 +4225,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 ebinary [reply txt]
 ┃╠♞👺 dbinary [reply txt]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4242,7 +4242,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 getmsg
 ┃╠♞👺 delmsg
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4255,7 +4255,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 next
 ┃╠♞👺 leave
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'girlvoicemenu':
 var unicorn = await getBuffer(picak+'Girl Voice Clips')
@@ -4282,7 +4282,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 pala
 ┃╠♞👺 mk
 ┃╠♞👺 marilada
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
@@ -4302,7 +4302,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 slow [reply aud]
 ┃╠♞👺 squirrel [reply aud]
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
@@ -4341,12 +4341,12 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠♞👺 zodiak (indo)
 ┃╠♞👺 shio (indo)
 ┃╚═════════════☬
-┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
+┗━━❯ ${pushname} ❮━😎`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "🤠Owner👨‍💻","id": 'owner'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
-Thanks To Me Later😂😂😂 !!!`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "My Github Repositories🔖","url": `https://github.com/malindunimsara?tab=repositories`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👨‍💻Owner:","id": 'owner'}}] )
+Thanks To Me Later😂😂😂 !!!`,unicorn, [{"urlButton": {"displayText": `${button}`,"url": `${btnurl}`}},{"urlButton": {"displayText": "🔖BOT SCRIPT🔖","url": `https://github.com/malindunimsara/malindunimsara/DARK-DEVIL-MD-BOT`}},{"quickReplyButton": {"displayText": "😂DONATE😂","id": 'donate'}},{"quickReplyButton": {"displayText": "👨‍💻Owner:","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
