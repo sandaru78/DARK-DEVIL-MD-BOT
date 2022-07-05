@@ -7,3 +7,5 @@
           𝐐𝐑 𝐂𝐎𝐃𝐄
 
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@MalinduNimsara1/DARK-DEVIL-MD-BOT-QR?v=1?outputonly=1&lite=1#index.js)
+
+👻𝐑𝐄𝐃 𝐃𝐑𝐀𝐆𝐎𝐍 𝐁𝐎𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐃 𝐕𝐄𝐑𝐒𝐈𝐎𝐍👻
