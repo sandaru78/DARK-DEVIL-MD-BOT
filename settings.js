@@ -21,22 +21,22 @@ global.APIKeys = {
 //customize settings\\
 
 global.alivemsg = `➳ᴹᴿ᭄ᴰᴬᴿᴷ ᴰᴱᵛᴵᴸ❦🇱🇰
-My Creator is 𝑴𝒂𝒍𝒊𝒏𝒅𝒖 𝑵𝒊𝒎𝒔𝒂𝒓𝒂` //Costomize Alive Message (type your message in `` )
+My Creator is "SASINDU MALSHAN"` //Costomize Alive Message (type your message in `` )
 
-global.owner = ['+94762817504'] //Owner number in msg
-global.premium = ['+94762817504'] //Owner Number info
-global.ownernomer = '+94762817504' //Owner Number <<<
+global.owner = ['+94703579894'] //Owner number in aive msg
+global.premium = ['+94703579894'] //Owner Number info
+global.ownernomer = '+94703579894' //Owner Number <<<
 
-global.ownername = 'Maͥliͣnͫdu Nimsara❦🇱🇰' //Owner Name
-global.botname = '𝙳𝙰𝚁𝙺⚓𝙳𝙴𝚅𝙸𝙻-𝙱𝙾𝚃✨' //Bot Name
+global.ownername = 'Sasindu malshan'❦🇱🇰' //Owner Name
+global.botname = 'BLACK SHARK BOT✨' //Bot Name
 
 global.button = '🖥️GITHUB〽️' //Costomize A Button Name In Alive Message
 global.btnurl = 'https://github.com/malindunimsara' //Change Your Button's URL
 
 global.region = 'srilanka' //Country Region
 
-global.packname = '👹𝗗𝗘𝗩𝗜𝗟 𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦࿐' //Bot Pacage Name
-global.author = 'Maͥliͣnͫdu Nimsara❦🇱🇰' //Author Name
+global.packname = 'SASINDU BOT' //Bot Pacage Name
+global.author = SASINDU MALSHAN❦🇱🇰' //Author Name
 global.prefa = ['','❗','.','😂','👹','🎊'] //Command Prefix eg:(.alive ,alive 😂alive)
 global.sessionName = 'session' //Session Name!
 global.sp = '⭔' //A Charactor In Menu!
