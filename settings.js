@@ -1,6 +1,6 @@
 //════════════(00)═══════════════════════════════════════//
 //
-//                      ➳ᴹᴿ᭄ᴰᴬᴿᴷ ᴰᴱᵛᴵᴸ❦🇱🇰
+//                  ฿Ⱡ₳₵₭ ₴Ⱨ₳Ɽ₭ ฿Ø₮❦🇱🇰
 //𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
 //
 //════════════(00)════════════════//
@@ -20,14 +20,14 @@ global.APIKeys = {
 
 //customize settings\\
 
-global.alivemsg = '฿Ⱡ₳₵₭ ₴Ⱨ₳Ɽ₭ ฿Ø₮
+global.alivemsg = `฿Ⱡ₳₵₭ ₴Ⱨ₳Ɽ₭ ฿Ø₮❦🇱🇰
 My Creator is SASINDU MALSHAN` //Costomize Alive Message (type your message in `` )
 
 global.owner = ['+94754465051'] //Owner number in aive msg
 global.premium = ['+94754465051'] //Owner Number info
 global.ownernomer = '+94754465051' //Owner Number <<<
 
-global.ownername = 'ֵֵֶֶֶֺֻׂׂׄ֯ _֪S̷A̷S̷I̷N̷D̷U̷ B̷O̷T̷֣' //Owner Name
+global.ownername = ' _֪S̷A̷S̷I̷N̷D̷U̷ B̷O̷T̷❦🇱🇰' //Owner Name
 global.botname = 'BLACK SHARK BOT✨' //Bot Name
 
 global.button = '🖥️GITHUB〽️' //Costomize A Button Name In Alive Message
