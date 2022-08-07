@@ -23,9 +23,9 @@ global.APIKeys = {
 global.alivemsg = `➳ᴹᴿ᭄ᴰᴬᴿᴷ ᴰᴱᵛᴵᴸ❦🇱🇰
 My Creator is 𝑴𝒂𝒍𝒊𝒏𝒅𝒖 𝑵𝒊𝒎𝒔𝒂𝒓𝒂` //Costomize Alive Message (type your message in `` )
 
-global.owner = ['+94762817504'] //Owner number in aive msg
-global.premium = ['+94762817504'] //Owner Number info
-global.ownernomer = '+94762817504' //Owner Number <<<
+global.owner = ['+94770452884'] //Owner number in aive msg
+global.premium = ['+94770452884'] //Owner Number info
+global.ownernomer = '+94770452884' //Owner Number <<<
 
 global.ownername = 'Maͥliͣnͫdu Nimsara❦🇱🇰' //Owner Name
 global.botname = '𝙳𝙰𝚁𝙺⚓𝙳𝙴𝚅𝙸𝙻-𝙱𝙾𝚃✨' //Bot Name
